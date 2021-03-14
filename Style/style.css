@@ -1,0 +1,335 @@
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+}
+q{
+  font-size: xx-small;
+}
+
+/*Estilo nav*/
+.navbar {
+margin-top: 1%;
+padding: 0;
+    justify-content: center;
+    width: 100%;
+  position: fixed;
+  z-index: 100;  
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 4px;
+    background-color: rgba(14, 0, 0, 0.673);
+    -webkit-box-shadow: -1px 14px 46px -12px rgba(84, 77, 77, 0.81);
+-moz-box-shadow: -1px 14px 46px -12px rgba(0,0,0,0.81);
+box-shadow: -1px 14px 46px -12px rgba(0,0,0,0.81);
+  }
+  li {
+    float: left;
+    
+  }
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #23242d;
+    text-decoration: none;
+  }
+ 
+  .active:hover{
+    text-decoration: none;
+    
+  }
+/*Estilo nav*/
+
+/*Estilo imaagen e info*/
+#nombre{
+background-image: url("/Images/Banner.gif");
+background-size: 100% 100%;
+margin: 2%;
+}
+
+
+.bgp{
+  
+  padding: 5px;
+  background-image: url("/Images/programas.png");
+  background-size: contain;
+  -webkit-box-shadow: 0px 24px 28px 1px rgba(0,0,0,0.83);
+-moz-box-shadow: 0px 24px 28px 1px rgba(0,0,0,0.83);
+box-shadow: 0px 24px 28px 1px rgba(0,0,0,0.83);
+border-radius: 4px;
+}
+.centroInfo{
+    
+padding: 5%;
+
+}
+
+.pg2{
+  -webkit-text-stroke: 1px black;
+  color: rgb(255, 60, 0);
+  
+}
+
+.img{
+    margin-top: 25px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+
+
+.info1{
+text-align: center;
+}
+
+.img #perfil{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 50%;
+    transform: scale(.8);
+    -ms-transform: scale(.9);
+    -moz-transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -o-transform: scale(.8);
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+}
+
+    
+.img:hover #perfil {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+}    
+
+#perfil{
+    padding: 4px;
+    background-color: #dd3a5262;
+    display:block;
+    margin:auto;
+    border-radius: 4px;
+    -webkit-box-shadow: -1px 14px 19px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 14px 19px -6px rgba(0,0,0,0.75);
+box-shadow: -1px 14px 19px -6px rgba(0,0,0,0.75);
+    
+}
+
+.titulo{
+background-color: #000000d2;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+border-radius: 4px;
+color: white;
+}
+
+h2, h3, h6{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/*Estilo imaagen e info*/
+
+/* Sobre mi*/
+#sobreMi{
+
+float: left; 
+}
+
+}
+
+
+
+.cont {
+
+  height: 200px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 20px;
+}
+.div-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgI{
+ max-width: 100%;
+  height: auto;
+ 
+
+}
+.imgI2{
+    float: left;
+    max-width: 30%;
+     height: auto;
+     margin: 2%;
+     border-radius: 4px;
+     -webkit-box-shadow: inset 9px 14px 154px -60px rgba(0,0,0,1);
+-moz-box-shadow: inset 9px 14px 154px -60px rgba(0,0,0,1);
+box-shadow: inset 9px 14px 154px -60px rgba(0,0,0,1);
+   
+   }
+
+.des{
+
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20%;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 18px 20px -11px rgba(62,14,67,0.6);
+    -moz-box-shadow: 4px 18px 20px -11px rgba(62,14,67,0.6);
+    box-shadow: 4px 18px 20px -11px rgba(62,14,67,0.6);
+    background-image: url("/Images/Banner2.png");
+    background-size: 100% 100%;
+}
+.detallesJuegos{
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.435);
+  border-radius: 2%;  
+}
+
+.bio{
+    padding: 1%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20%;
+   
+}
+
+.textos{
+    padding: 5%;
+    margin-left: 10%;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.div-img .imgI {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  float: left;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img .text{
+  font-family: 'Open Sans';
+  padding-top: 5px;
+  display: block;
+  text-align: center;
+  width: 90%;
+  float: left;
+  transform: translate(0px);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  opacity: 0;
+  transition: transfom opacity 1.5s;
+ color:black;
+ background-color: rgba(255, 0, 0, 0.515);
+ border-radius: 4px;
+}
+
+
+.div-img:hover .imgI {
+  transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  -o-transform: scale(0.8);
+}
+.div-img:hover .text {
+  transform: translate(-5%, -5%);
+  opacity: 1;
+}
+
+
+.completo{
+  background-image: url("/Images/pagos.png");
+  background-size:cover;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 1px black;
+  color: rgb(238, 255, 4); 
+  -webkit-box-shadow: 0px 6px 51px 14px rgba(0,0,0,0.98);
+  -moz-box-shadow: 0px 6px 51px 14px rgba(0,0,0,0.98);
+  box-shadow: 0px 6px 51px 14px rgba(0,0,0,0.98);
+}
+
+.separador{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+
+ /*xp */
+
+ .bits{
+
+  font-family: 'Press Start 2P', cursive;
+font-size: small;
+font-weight: 300;
+ }
+
+#footer{
+  text-align: center;
+  position: relative;
+  top:10px;
+  padding: 1%;
+ 
+}
+
+ #social{
+float: center;
+
+margin-right: 10px;
+  width: 40px;
+ }
+
+ .social2{
+  
+  margin-right: 10px;
+    width: 40px;
+   }
